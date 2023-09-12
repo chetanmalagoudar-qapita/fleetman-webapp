@@ -40,7 +40,7 @@ phases:
       - docker push $REPOSITORY_URI:latest
       - docker push $REPOSITORY_URI:$IMAGE_TAG
       - echo Push the latest image to cluster
-      # - aws eks --region $AWS_DEFAULT_REGION update-kubeconfig --name $AWS_CLUSTER_NAME --kubeconfig /tmp/kubeconfig.yaml
-      # - export KUBECONFIG=/tmp/kubeconfig.yaml
+      - aws eks --region $AWS_DEFAULT_REGION update-kubeconfig --name $AWS_CLUSTER_NAME --kubeconfig /tmp/kubeconfig.yaml
+      - export KUBECONFIG=/tmp/kubeconfig.yaml
       - kubectl apply -f eks-cicd/production-grade-manifests/manifests/workloads.yaml
       - kubectl rollout restart deployment webapp

@@ -47,7 +47,7 @@ kind: Deployment
 metadata:
   name: position-tracker
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: position-tracker
@@ -72,7 +72,7 @@ kind: Deployment
 metadata:
   name: api-gateway
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: api-gateway
@@ -96,7 +96,7 @@ kind: Deployment
 metadata:
   name: webapp
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: webapp
@@ -107,7 +107,8 @@ spec:
     spec:
       containers: 
       - name: webapp
-        image: richardchesterwood/k8s-fleetman-webapp-angular:release2
+#        image: richardchesterwood/k8s-fleetman-webapp-angular:release2
+        image: 569217721576.dkr.ecr.ap-south-1.amazonaws.com/fleetman-frontend:latest
         env:
         - name: SPRING_PROFILES_ACTIVE
           value: production-microservice

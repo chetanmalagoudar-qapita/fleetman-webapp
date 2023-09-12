@@ -15,6 +15,7 @@ phases:
       - kubectl version --short --client
       - chmod +x eks-cicd/production-grade-manifests/buildspec/prereqs.sh
       - sh eks-cicd/production-grade-manifests/buildspec/prereqs.sh
+      - aws --version
 
   pre_build:
     commands:

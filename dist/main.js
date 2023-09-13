@@ -179,7 +179,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-1\">\n  <a class=\"navbar-brand col-sm-3 col-md-2 mr-0\" href=\"#\">Fleet Management System R2</a>\n  <ul class=\"navbar-nav flex-row\">\n    <li class=\"nav-item\">\n      <a class=\"nav-link p-2\" href=\"https://github.com/DickChesterwood/k8s-fleetman\"><span class=\"fa fa-2x fa-github\"></span></a>\n    </li>\n    <li>\n      <a class=\"nav-link p-2\" href=\"https://twitter.com/RichChesterwood\"><span class=\"fa fa-2x fa-twitter\"></span></a>\n    </li>\n    <li>\n      <a class=\"nav-link p-2\" href=\"http://blog.chesterwood.io\"><span class=\"fa fa-2x fa-rss\"></span></a>\n    </li>\n  </ul>\n</nav>\n"
+module.exports = "<nav class=\"navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-1\">\n  <a class=\"navbar-brand col-sm-3 col-md-2 mr-0\" href=\"#\">Fleet Management System R2-CD-by-Chetan</a>\n  <ul class=\"navbar-nav flex-row\">\n    <li class=\"nav-item\">\n      <a class=\"nav-link p-2\" href=\"https://github.com/DickChesterwood/k8s-fleetman\"><span class=\"fa fa-2x fa-github\"></span></a>\n    </li>\n    <li>\n      <a class=\"nav-link p-2\" href=\"https://twitter.com/RichChesterwood\"><span class=\"fa fa-2x fa-twitter\"></span></a>\n    </li>\n    <li>\n      <a class=\"nav-link p-2\" href=\"http://blog.chesterwood.io\"><span class=\"fa fa-2x fa-rss\"></span></a>\n    </li>\n  </ul>\n</nav>\n"
 
 /***/ }),
 
